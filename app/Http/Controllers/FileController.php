@@ -12,7 +12,6 @@ use Pion\Laravel\ChunkUpload\Receiver\FileReceiver;
 
 class FileController extends Controller
 {
-//    public $uploadPath = '/uploads';
     public $uploadPath = '/public/storage/uploads';
 
     public function files()
